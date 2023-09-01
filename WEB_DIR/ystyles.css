@@ -1,0 +1,48 @@
+/* Globales Styling */
+.xlogs {
+    background-color: black;
+    color: #00ff00; /* Neon Grün */
+    font-family: "Courier New", monospace;
+}
+
+/* Logs-Container */
+.logs-container {
+    max-height: 600px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Einzelne Log-Einträge */
+.log-entry {
+    white-space: pre; /* Erhaltung von Leerzeichen und Zeilenumbrüchen */
+}
+
+.controls-container {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Suchleiste */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#searchButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

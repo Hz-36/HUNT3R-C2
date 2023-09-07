@@ -1,0 +1,1038 @@
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2011%3A53%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2011%3A57%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2011%3A57%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2011%3A57%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A00%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A01%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A03%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A05%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A05%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A05%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A06%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A06%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A08%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A08%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A13%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A13%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A13%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A13%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A17%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A17%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A18%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A18%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A18%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A59%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A59%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A59%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A59%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A59%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2012%3A59%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A00%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A01%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A02%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A02%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A02%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A03%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A03%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A03%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A09%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A13%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A26%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A34%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A35%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A37%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A40%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A42%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A42%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A42%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A43%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2013%3A44%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2014%3A42%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2014%3A43%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2014%3A44%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2014%3A44%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2015%3A00%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2015%3A00%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2015%3A01%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv exists already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv exists already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2015%3A02%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2020.07.2023%2015%3A02%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2006.08.2023%2014%3A47%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2006.08.2023%2014%3A47%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Failed to open file: C:/temp/HUNT3R/WEB/%20XCLIENT00001%20%20%20XXSTATUS_UPDATEXX%20%2006.08.2023%2014%3A47%20%20xXSTOPX%20
+
+File Deleted successfully: C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS_TEMP.csv
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' created successfully.
+
+Folder 'WEB' created successfully.
+
+Folder 'CLIENTS' created successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Folder 'WEB_INTERNAL' Created Successfully.
+
+Folder 'WEB' Created Successfully.
+
+Folder 'CLIENTS' Created Successfully.
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_STATUS.csv Exists Already.
+
+File C:/temp/HUNT3R/CLIENTS/CLIENT_INFO.csv Exists Already.
+
+Failed To Open File: C:/temp/HUNT3R/WEB/index,html
+
+Failed To Open File: C:/temp/HUNT3R/WEB/favicon.ico
+
+Exception: read_until: End of file [asio.misc:2]
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Exception: read_until: End of file [asio.misc:2]
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Exception: read_until: End of file [asio.misc:2]
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/settings-icon.png
+
+Failed To Open File: C:/temp/HUNT3R/WEB/logo.png
+
+Exception: read_until: End of file [asio.misc:2]
+
+Exception: read_until: End of file [asio.misc:2]
+
+File C:/temp/HUNT3R/WEB_INTERNAL/LISTENER_LOG.txt exists already.
+

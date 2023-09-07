@@ -117,29 +117,32 @@
     		    </ul>
 	        </div>
                 <div class="tabs">
-    		    <p><font color="#ffffff"><b>SESSION TABS:</b></font></p><br>
-   		    <?php
-    	    	        $pdo = new PDO('mysql:host=localhost;dbname=session', 'hunt3r', 'hunt3r');
-    	    	        $stmt = $pdo->query('SELECT sessionname, sessionstatus FROM xsession');
+    <p><font color="#ffffff"><b>SESSION TABS:</b></font></p><br>
+    <?php
+    $pdo = new PDO('mysql:host=localhost;dbname=session', 'hunt3r', 'hunt3r');
+    $stmt = $pdo->query('SELECT sessionname, sessionstatus, xid FROM xsession');
 
-    	    	        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                        $sessionName = $row['sessionname'];
-                        $sessionStatus = $row['sessionstatus'];
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $sessionName = $row['sessionname'];
+        $sessionStatus = $row['sessionstatus'];
+        $xid = $row['xid'];
 
-                        if ($sessionStatus == 0) {
-                            $color = '#ff0000'; // Rot
-                        } elseif ($sessionStatus == 1) {
-                            $color = '#ffff00'; // Gelb
-                        } elseif ($sessionStatus == 2) {
-                            $color = '#00ff00'; // Grün
-                        } else {
-                            $color = '#ffffff'; // Standardfarbe
-                        }
+        if ($sessionStatus == 0) {
+            $color = '#ff0000'; // Rot
+        } elseif ($sessionStatus == 1) {
+            $color = '#ffff00'; // Gelb
+        } elseif ($sessionStatus == 2) {
+            $color = '#00ff00'; // Grün
+        } else {
+            $color = '#ffffff'; // Standardfarbe
+        }
 
-                        echo '<p class="session"><font color="' . $color . '"><b>[-] ' . $sessionName . '</b></font></p><br>';
-                        }
-                    ?>
-            </div>
+        // Füge einen Link hinzu, um die Sitzung zu öffnen
+        echo '<p class="session"><font color="' . $color . '"><b>[-] <a href="xshell.php?sid=' . $xid . '">' . $sessionName . '</a></b></font></p><br>';
+    }
+    ?>
+</div>
+
             <div class="slider-container">
                 <form id="profileForm">
 	            <div class="timeinterval"><p><b>Time Interval:</b></p></div>

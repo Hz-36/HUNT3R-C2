@@ -1,25 +1,22 @@
-/* Globales Styling */
 .xlogs {
     background-color: black;
-    color: #00ff00; /* Neon Grün */
-    font-family: "Courier New", monospace;
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 96%;
 }
 
-/* Logs-Container */
-.logs-container {
-    max-height: 600px;
-    overflow-y: scroll;
-    border: 1px solid #ccc;
+.logx-container {
+    border: 1px solid white;
     padding: 10px;
-}
-
-/* Einzelne Log-Einträge */
-.log-entry {
-    white-space: pre; /* Erhaltung von Leerzeichen und Zeilenumbrüchen */
+    width: 98.6%;
+    height: 90%;
+    overflow-y: scroll;
 }
 
 .controls-container {
-    background-color: #333;
+    background-color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +28,6 @@
 /* Suchleiste */
 .search-bar {
     display: flex;
-    align-items: center;
 }
 
 #searchInput {
@@ -41,7 +37,6 @@
 }
 
 #searchButton {
-    background-color: grey;
     padding: 5px;
     margin-left: 10px;
     border: none;

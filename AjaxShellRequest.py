@@ -2,9 +2,9 @@
 import http.client
 
 def send_ajax_request(path):
-    conn = http.client.HTTPConnection("localhost", 4444) 
-    conn.request("GET", path)
-    response = conn.getresponse()
+    conn = http.client.HTTPConnection("localhost", 4444) # IP, Port
+    conn.request("GET", path) # GET Request
+    response = conn.getresponse() # Get Response
     print("Response status:", response.status)
     print("Response reason:", response.reason)
     print("Response body:", response.read().decode('utf-8'))

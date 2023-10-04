@@ -236,8 +236,8 @@
     	    </div>
         </div>
     </div>
-<script type="text/javascript" src="script.js"></script>
-<script type="text/javascript" src="xscript.js"></script>
-<script type="text/javascript" src="/js/client_interval.js"></script>
+<script type="text/javascript" src="script.js" defer></script>
+<script type="text/javascript" src="xscript.js" defer></script>
+<script type="text/javascript" src="/js/client_interval.js" defer></script>
 </body>
 </html>

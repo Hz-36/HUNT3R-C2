@@ -193,7 +193,8 @@ $sid = $_GET['sid'];
      	   }
 
       	  const xhr = new XMLHttpRequest();
-      	  xhr.open('GET', `http://localhost:4444/getPort/${sid}`); // Annahme: Die Route ist /getPort/SID
+      	  //xhr.open('GET', `http://localhost:4444//xSHELL_CLIENTx/${sid}`);
+      	  xhr.open('GET', `http://localhost:4444//xSLIENTx/${sid}`);
      	  xhr.onreadystatechange = function () {
             if (xhr.readyState === XMLHttpRequest.DONE) {
                 if (xhr.status === 200) {
@@ -209,8 +210,8 @@ $sid = $_GET['sid'];
 
     // WebSocket-Verbindung starten
     function startWebSocket(port) {
-        const socket = new WebSocket(`ws://127.0.0.1:${port}`);
-        //const socket = new WebSocket('127.0.0.1:3000');
+        //const socket = new WebSocket(`ws://127.0.0.1:${port}`);
+        const socket = new WebSocket('127.0.0.1:1202');
 
         // Wenn die Verbindung geöffnet ist
         socket.addEventListener('open', (event) => {

@@ -1,0 +1,44 @@
+.xlogs {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 96%;
+}
+
+.logx-container {
+    border: 1px solid white;
+    padding: 10px;
+    width: 98.6%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.controls-container {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 98.6%;
+}
+
+/* Suchleiste */
+.search-bar {
+    display: flex;
+}
+
+#searchInput {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#searchButton {
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}

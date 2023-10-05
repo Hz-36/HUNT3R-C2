@@ -1,0 +1,49 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const rightPane = document.querySelector('.right-pane');
+
+    document.addEventListener('click', function(event) {
+        const target = event.target;
+
+        // Check if the clicked element or its parent has the class 'client-row'
+        const clientRow = target.closest('.client-row');
+        if (clientRow) {
+            const xid = clientRow.getAttribute('data-xid');
+
+            // Load the extended information and image via an Ajax request
+            fetch('client_details.php?xid=' + xid)
+                .then(response => response.text())
+                .then(data => {
+		    console.log('Received data:', data); // Log the response data
+                    //rightPane.innerHTML = data;
+		    rightPane.innerHTML = ''; // Clear existing content
+		    rightPane.insertAdjacentHTML('beforeend', data); // Append the response data as HTML content
+                })
+                .catch(error => {
+                    console.error('Error loading client details:', error);
+                });
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const clientRows = document.querySelectorAll('.client-row');
+    const rightPane = document.querySelector('.right-pane');
+
+    clientRows.forEach(row => {
+        row.addEventListener('click', function() {
+            const xid = row.getAttribute('data-xid');
+            
+            // Lade die erweiterten Informationen und das Bild über eine Ajax-Anfrage
+            fetch('client_details.php?xid=' + xid)
+                .then(response => response.text())
+                .then(data => {
+                    rightPane.innerHTML = data;
+
+                })
+                .catch(error => {
+                    console.error('Error loading client details:', error);
+                });
+        });
+    });
+});

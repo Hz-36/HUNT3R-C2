@@ -58,18 +58,5 @@
                 <img id="clientImage" src="" alt="Client Image">
             </div>
 
-	<div class="popup-overlay" id="popupOverlay">
-    	    <div class="popup">
-        	<?php
-       		    if (isset($_POST['deleteButton']) && $_POST['deleteButton'] == 1) {
-                    if (isset($deleteSuccessMessage)) {
-                    echo $deleteSuccessMessage;
-            	    } elseif (isset($deleteErrorMessage)) {
-            	    echo $deleteErrorMessage;
-            	    }
-            	    echo '<br><button id="closePopupButton">Close Popup</button>';
-        	    }
-        	?>
-    	    </div>
-        </div>
+	
     </div>

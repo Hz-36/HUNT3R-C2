@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">   
     <link rel="stylesheet" href="/css/log_styles.css">
     <link rel="stylesheet" href="/css/shell_styles.css"> 
-    <title>HUNT3R | Control Panel</title>
+    <title>HUNT3R</title>
 </head>
+
+
 <body>
     <div class="header">
         <div class="combined-header">
             <div class="horizontal-header">
                 <div class="logo">
-                    <img src="logo6.png" alt="Logo">
+                    <img src="logo.png" alt="Logo">
                 </div>
                 <div class="header-content">
 		    <div class="online-count">
@@ -114,7 +117,7 @@
        		    <li><div class="menu-item-box"><span class="menu-item-text">XFILE</span></div></li>
        		    <li><div class="menu-item-box"><span class="menu-item-text">XPASS</span></div></li>
         	    <li><div class="menu-item-box"><span class="menu-item-text">XLOGS</span></div></li>
-       		    <li><div class="menu-item-box"><span class="menu-item-text">XTEAM</span></div></li>
+       		    <li><div class="menu-item-box"><span class="menu-item-text">XINTERVAL</span></div></li>
        		    <li><div class="menu-item-box"><span class="menu-item-text">XCHAT</span></div></li>
     		    </ul>
 	        </div>
@@ -139,14 +142,12 @@
         			    $color = '#ffffff'; // Standardfarbe
         			}
 
-        			// Füge einen Link hinzu, um die Sitzung zu öffnen
-        			echo '<p class="session"><font color="' . $color . '"><b>[-] <a href="xshell.php?sid=' . $xid . '">' . $sessionName . '</a></b></font></p><br>';
+        			echo '<p class="session"><font color="' . $color . '"><b>[-] <a href="yshell.php?sid=' . $xid . '">' . $sessionName . '</a></b></font></p><br>';
     			}
     		    ?>
 		</div>
-
-	            <div class="slider-container">
-                        <form id="profileForm">
+	        <div class="slider-container">
+                    <form id="profileForm">
 	                <div class="timeinterval"><p><b>Time Interval:</b></p></div>
             	            <div class="profile-buttons">
                                 <button type="button" class="profile-button active" data-profile="Profil 1">Profile 1</button>
@@ -154,21 +155,36 @@
                                 <button type="button" class="profile-button" data-profile="Profil 3">Profile 3</button>
                             </div>
                     	</form>
-                	</div>
-                	<div class="version">
-		    	    <p>Version 1.0</p><br>
-                    	    <button class="kill-switch">Kill Switch</button>
-                	</div>
-            	    </div>
-        	</div>
-    	    </div>
-    	    <div class="main-content" id="main-content">
-
-    	    </div>
-<script type="text/javascript" src="/js/script.js" defer></script>
-<script type="text/javascript" src="/js/xscript.js" defer></script>
-<script type="text/javascript" src="/js/client_interval.js" defer></script>
-<script type="text/javascript" src="/js/logs.js" defer></script>
-<script type="text/javascript" src="/js/right_pane.js" defer></script>
+                    </div>
+                    <div class="version">
+		    	<p>Version 1.0</p><br>
+                    	<button class="kill-switch">Kill Switch</button>
+                    </div>
+            	</div>
+            </div>
+    	</div>
+    </div>
+    <div class="main-content" id="main-content">
+	<!-- DYNAMIC MAIN CONTENT IS LOADING HERE -->
+    </div>
+    <div class="popup-overlay" id="popupOverlay">
+    	<div class="popup">
+            <?php
+       		if (isset($_POST['deleteButton']) && $_POST['deleteButton'] == 1) {
+                  if (isset($deleteSuccessMessage)) {
+                    echo $deleteSuccessMessage;
+            	  } elseif (isset($deleteErrorMessage)) {
+            	    echo $deleteErrorMessage;
+            	  }
+            	  echo '<br><button id="closePopupButton">Close Popup</button>';
+        	}
+            ?>
+    	</div>
+    </div>
+    <script type="text/javascript" src="/js/script.js" defer></script>
+    <script type="text/javascript" src="/js/widgets.js" defer></script>
+    <script type="text/javascript" src="/js/client_interval.js" defer></script>
+    <script type="text/javascript" src="/js/logs.js" defer></script>
+    <script type="text/javascript" src="/js/right_pane.js" defer></script>
 </body>
 </html>

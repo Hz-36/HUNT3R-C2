@@ -1,40 +1,40 @@
+
+
+
+//NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW
 document.addEventListener('DOMContentLoaded', function() {
-    const logsContainer = document.getElementById('logsContainer');
-    const searchInput = document.getElementById('searchInput');
-    const searchButton = document.getElementById('searchButton');
-    const prevButton = document.getElementById('prevButton');
-    const nextButton = document.getElementById('nextButton');
+    let searchResults = [];
+    let currentIndex = -1;
 
     function loadLogs() {
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', 'logs.php', true);  // Adjust this URL if needed
+        xhr.open('GET', 'logs.php', true);
         xhr.onreadystatechange = function() {
-            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                logsContainer.innerHTML = xhr.responseText;
-                logsContainer.scrollTop = logsContainer.scrollHeight;
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    const logsContainer = document.getElementById('logsContainer');
+                    if (logsContainer) {
+                        logsContainer.innerHTML = xhr.responseText;
+                        logsContainer.scrollTop = logsContainer.scrollHeight;
+                    }
+                } else {
+                    console.error('Failed to load logs. HTTP status:', xhr.status);
+                }
             }
         };
         xhr.send();
     }
 
     function findSearchResults(keyword) {
-        searchResults = [];
-        const logs = logsContainer.getElementsByClassName('log-entry');
-        for (let i = logs.length - 1; i >= 0; i--) {
-            if (logs[i].textContent.includes(keyword)) {
-                searchResults.push(logs[i]);
-            }
+        const logsContainer = document.getElementById('logsContainer');
+        if (!logsContainer) {
+            console.error('logsContainer is null. Could not find logs container.');
+            return;
         }
-    }
 
-    searchButton.addEventListener('click', function() {
-        const keyword = searchInput.value;
-        if (keyword.trim() !== '') {
-            findSearchResults(keyword);
-            currentIndex = -1;
-            highlightNext();
-        }
-    });
+        const logs = logsContainer.getElementsByClassName('log-entry');
+        searchResults = Array.from(logs).filter(log => log.textContent.includes(keyword));
+    }
 
     function highlightNext() {
         if (searchResults.length === 0) return;
@@ -48,9 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
         scrollToResult(searchResults[currentIndex]);
     }
 
-    nextButton.addEventListener('click', highlightNext);
-    prevButton.addEventListener('click', highlightPrev);
-
     function scrollToResult(result) {
         result.scrollIntoView({ behavior: 'smooth' });
         clearHighlights();
@@ -63,6 +60,44 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    loadLogs();  // Call loadLogs initially when the page is loaded
-    setInterval(loadLogs, 5000);
+    function initializeEventListeners() {
+        const searchButton = document.getElementById('searchButton');
+        if (searchButton) {
+            searchButton.addEventListener('click', function() {
+                const searchInput = document.getElementById('searchInput');
+                const keyword = searchInput.value;
+                if (keyword.trim() !== '') {
+                    findSearchResults(keyword);
+                    currentIndex = -1;
+                    highlightNext();
+                }
+            });
+        }
+
+        const prevButton = document.getElementById('prevButton');
+        if (prevButton) {
+            prevButton.addEventListener('click', function() {
+                highlightPrev();
+            });
+        }
+
+        const nextButton = document.getElementById('nextButton');
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                highlightNext();
+            });
+        }
+    }
+
+    // Initial event listener setup
+    initializeEventListeners();
+
+    // Load logs initially when the page is loaded
+    loadLogs();
+
+    // Poll for dynamic content and load logs
+    const pollContentInterval = setInterval(() => {
+        loadLogs();
+    }, 5000);
 });
+

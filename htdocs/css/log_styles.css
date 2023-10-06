@@ -25,6 +25,11 @@
     width: 98.6%;
 }
 
+.controls-container button img {
+    width: 54px; /* Ändere die Breite nach Bedarf */
+    height: 18px; /* Ändere die Höhe nach Bedarf */
+}
+
 /* Suchleiste */
 .search-bar {
     display: flex;

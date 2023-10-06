@@ -6,18 +6,16 @@
         </div>
         <div class="controls-container">
             <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="Search...">
-                <button id="searchButton"><img src="search-icon.png" alt="Search"></button>
-            </div>
-            <div class="navigation-buttons">
-                <button id="prevButton"><img src="prev-icon.png" alt="Previous"></button>
-                <button id="nextButton"><img src="next-icon.png" alt="Next"></button>
-            </div>
-        </div>
+        	<input type="text" id="searchInput" placeholder="Search...">
+        	<button id="searchButton"><img src="/pic/HUNT3R_SEARCH_BLUE.png" alt="Search" width="30" height="30"></button>
+    	    </div>
+    	    <div class="navigation-buttons">
+        	<button id="prevButton"><img src="/pic/HUNT3R_PREV_BLUE.png" alt="Previous" width="30" height="30"></button>
+        	<button id="nextButton"><img src="/pic/HUNT3R_NEXT_BLUE.png" alt="Next" width="30" height="30"></button>
+    	    </div>
+	</div>
     </div>
 </div>
-<script type="text/javascript">
-    // Your logs.js content here
-    console.log('logs.js is running');
-</script>
+
+
 <script type="text/javascript" src="/js/logs.js" defer></script>

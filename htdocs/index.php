@@ -158,7 +158,10 @@
                     </div>
                     <div class="version">
 		    	<p>Version 1.0</p><br>
-                    	<button class="kill-switch">Kill Switch</button>
+			<button class="kill-switch" id="killSwitchButton">
+    			    Kill Switch
+    			    <div class="progress-bar"></div>
+			</button>
                     </div>
             	</div>
             </div>
@@ -169,22 +172,29 @@
     </div>
     <div class="popup-overlay" id="popupOverlay">
     	<div class="popup">
-            <?php
-       		if (isset($_POST['deleteButton']) && $_POST['deleteButton'] == 1) {
-                  if (isset($deleteSuccessMessage)) {
-                    echo $deleteSuccessMessage;
-            	  } elseif (isset($deleteErrorMessage)) {
-            	    echo $deleteErrorMessage;
-            	  }
-            	  echo '<br><button id="closePopupButton">Close Popup</button>';
-        	}
-            ?>
+            <p>Möchten Sie das Client-Profil wirklich löschen?</p>
+            <button id="confirmDeleteButton">Delete Client Profile</button>
+            <button id="cancelDeleteButton">Cancel Delete</button>
+            <input type="hidden" id="clientIdToDelete" value="">
     	</div>
     </div>
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-kill-switch">
+            <button class="close-button" onclick="closePopup()">X</button>
+            <div class="buttons-container">
+            	<button class="cancel-button">Cancel Kill Switch</button>
+            	<button class="kill-now-button">KILL NOW</button>
+            </div>
+            <div class="timer">30</div>
+    	</div>
+    </div>
+
+
     <script type="text/javascript" src="/js/script.js" defer></script>
     <script type="text/javascript" src="/js/widgets.js" defer></script>
     <script type="text/javascript" src="/js/client_interval.js" defer></script>
     <script type="text/javascript" src="/js/logs.js" defer></script>
     <script type="text/javascript" src="/js/right_pane.js" defer></script>
+    <script type="text/javascript" src="/js/kill_switch.js" defer></script>
 </body>
 </html>

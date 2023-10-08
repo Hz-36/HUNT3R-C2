@@ -62,9 +62,11 @@ function killNow() {
     console.log('KILL NOW button clicked or timer elapsed - sending request...');
 }
 
+
 function closePopup() {
     const popupContainer = document.getElementById('popupContainer');
     popupContainer.style.display = 'none';
+    killSwitchButton.classList.remove('clicked');
 }
 
 const cancelButton = document.querySelector('.cancel-button');

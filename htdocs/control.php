@@ -37,8 +37,10 @@
             </table>
         </div>
             <div class="right-pane" id="right-pane">
-                <h2>Client Details</h2>
-                <img id="clientImage" src="" alt="Client Image">
+                <h2>HUNT3R C2</h2>
+                <img id="clientImage" src="" alt="">
+		<p>HUNT3R Latest Updates:</p>
+		<div class="" id="">
             </div>
 
 	

@@ -12,23 +12,25 @@ document.addEventListener('click', function(event) {
     }
 });
 
+
 if (confirmDeleteButton && cancelDeleteButton) {
     confirmDeleteButton.addEventListener('click', function() {
         const xidToDelete = clientIdToDeleteInput.value;
         console.log('Client profile with xid ' + xidToDelete + ' will be deleted.');
         // Hier kannst du eine Funktion aufrufen, um das Profil zu löschen
         deleteClientProfile(xidToDelete);
-        closePopup();
+        closeClientDeletePopup();
     });
 
     cancelDeleteButton.addEventListener('click', function() {
-        closePopup();
+        closeClientDeletePopup();
     });
 }
 
-function closePopup() {
+function closeClientDeletePopup() {
     popupOverlay.style.display = 'none';
 }
+
 
 function deleteClientProfile(xid) {
     fetch('delete_client_profile.php?xid=' + xid, {

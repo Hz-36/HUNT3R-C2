@@ -1,0 +1,208 @@
+.row {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #ccc;
+}
+
+.col-50 h6 {
+    margin-top: 0px;
+    padding: 3px;
+}
+
+.col-100 h6 {
+    margin-top: 0px;
+    padding: 3px;
+}
+
+
+.col-100 {
+    width: 100%;
+    height: 20%;
+    border: 1px solid #ccc;
+}
+
+.bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+}
+
+input, button {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.points-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+.points-list li {
+    display: flex;
+    align-items: center;
+}
+
+.points-list li input {
+    margin-right: 10px;
+}
+
+.points-list li label {
+    margin: 0;
+}
+
+/* Anpassungen für den Text-Input */
+input[type="text"] {
+    width: 60%;
+    border: 1px solid #ccc;
+}
+
+/* Anpassungen für die Buttons */
+button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #bbb;
+    color: #fff;
+}
+
+/* Zusätzliche Anpassungen für den Bottom-Bar */
+.bottom-bar {
+    border-top: 2px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+.payload-settings-container {
+    display: flex;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.payload-settings-column {
+    flex: 1;
+    border-right: 1px solid #ccc;
+}
+
+.payload-settings-column:last-child {
+    border-right: none;
+}
+
+.payload-settings-column h6 {
+    padding: 3px;
+}
+
+.payload-settings-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payload-settings-column li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.payload-settings-column li input {
+    margin-right: 10px;
+}
+
+.payload-settings-column li label {
+    margin: 0;
+}
+
+.see-more {
+    font-size: 10px;
+    font-color: blue;
+    float: right;
+    margin-top: -15px;
+    padding-right: 5px;
+}
+
+.payload-settings-wrapper {
+    display: flex; /* Elemente nebeneinander ausrichten */
+}
+
+.payload-settings-columnx {
+    width: 50%; /* Breite anpassen, damit sie nebeneinander passen */
+    margin-bottom: 10px; /* Abstand zwischen den Spalten */
+    border: 1px solid #ccc;
+}
+
+.scrollable-list {
+    max-height: 200px;
+    padding: 10px;
+}
+
+.headerbuilder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabsbuilder {
+    display: flex;
+}
+
+.tabbuilder {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tabbuilder:first-child {
+    border-top-left-radius: 8px;
+}
+
+.tabbuilder:last-child {
+    border-top-right-radius: 8px;
+}
+
+.tabbuilder:hover {
+    background-color: #e0e0e0;
+}
+
+.tabbuilder.active {
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+
+/* "See More" Popup */
+.see-more-popup {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.see-more-popup ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.see-more-popup li {
+    margin-bottom: 5px;
+}
+
+

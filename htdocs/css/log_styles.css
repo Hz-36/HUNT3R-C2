@@ -17,28 +17,35 @@
 
 .controls-container {
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     bottom: 0;
     width: 98.6%;
+    height: 28px;
 }
 
 .controls-container button img {
-    width: 54px; /* Ändere die Breite nach Bedarf */
-    height: 18px; /* Ändere die Höhe nach Bedarf */
+    width: 45px; /* Ändere die Breite nach Bedarf */
+    height: 15px; /* Ändere die Höhe nach Bedarf */
 }
 
 /* Suchleiste */
 .search-bar {
+    max-height: 39px;
     display: flex;
 }
 
 #searchInput {
-    padding: 3px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  outline: none;
+  flex: 1;
 }
 
 #searchButton {

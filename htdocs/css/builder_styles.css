@@ -42,16 +42,20 @@ button {
     cursor: pointer;
 }
 
+
+
 .points-list {
     list-style-type: none;
     padding: 0;
     margin-top: -20px;
     font-size: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .points-list li {
     display: flex;
-    align-items: center;
+    margin-bottom: 5px;
 }
 
 .points-list li input {
@@ -61,6 +65,19 @@ button {
 .points-list li label {
     margin: 0;
 }
+
+.checkbox-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.checkbox-column input {
+    margin-right: 10px;
+}
+
 
 /* Anpassungen für den Text-Input */
 input[type="text"] {
@@ -86,6 +103,27 @@ button:hover {
     border-top: 2px solid #ccc;
     background-color: #f9f9f9;
     padding: 10px 0;
+}
+
+.popup-menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-menu {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
 }
 
 .payload-settings-container {
@@ -128,10 +166,10 @@ button:hover {
 
 .see-more {
     font-size: 10px;
-    font-color: blue;
     float: right;
-    margin-top: -15px;
-    padding-right: 5px;
+    margin-top: -25px;
+    padding: 7px;
+    cursor: pointer;
 }
 
 .payload-settings-wrapper {
@@ -140,13 +178,11 @@ button:hover {
 
 .payload-settings-columnx {
     width: 50%; /* Breite anpassen, damit sie nebeneinander passen */
-    margin-bottom: 10px; /* Abstand zwischen den Spalten */
-    border: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .scrollable-list {
     max-height: 200px;
-    padding: 10px;
 }
 
 .headerbuilder {
@@ -202,6 +238,52 @@ button:hover {
 }
 
 .see-more-popup li {
+    margin-bottom: 5px;
+}
+
+.popup-menu-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.popup-menu-buttons button {
+    padding: 10px 20px;
+}
+
+.close-popup-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.symbol-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.symbol {
+    margin: 10px;
+    text-align: center;
+}
+
+.symbol img {
+    cursor: pointer;
+}
+
+.settings-panel {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.settings-panel h6 {
     margin-bottom: 5px;
 }
 

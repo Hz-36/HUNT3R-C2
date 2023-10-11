@@ -81,7 +81,7 @@ button {
 
 /* Anpassungen für den Text-Input */
 input[type="text"] {
-    width: 60%;
+    width: 54%;
     border: 1px solid #ccc;
 }
 
@@ -289,26 +289,25 @@ button:hover {
     margin-bottom: 5px;
 }
 
-.left-section {
+.left-section, .middle-section, .right-section {
     width: 30%;
-    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-section {
+    float: left;
 }
 
 .middle-section {
-    width: 30%;
+    float: left;
+    margin: 0 0 auto 20px;
 }
 
 .right-section {
-    width: 30%;
+    float: right;
     font-size: 10px;
-}
-
-.points-list li {
-    list-style-type: none;
-}
-
-.points-list label {
-    margin-left: 10px;
+    margin-top: -20px;
 }
 
 .file-size-input {
@@ -318,16 +317,30 @@ button:hover {
 
 .file-size-input input {
     flex: 1;
-    padding: 5px;
+    padding: 6px; /* Adjust as needed */
+    font-size: 10px; /* Adjust as needed */
 }
 
 .file-size-input button {
-    padding: 5px 10px;
+    padding: 6px; /* Adjust as needed */
+    font-size: 10px; /* Adjust as needed */
+}
+
+.input-field {
+    width: 54%;
+    padding: 6px; /* Adjust as needed */
+    font-size: 10px; /* Adjust as needed */
+}
+
+.checkbox-label, .radio-label {
+    font-size: 10px; /* Adjust as needed */
+    vertical-align: middle;
 }
 
 .compile-button, .submit-button {
-    margin-top: 10px;
-    padding: 8px 16px;
+    float: right;
+    margin-top: -57px;
+    padding: 5px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -337,6 +350,3 @@ button:hover {
 .compile-button:hover, .submit-button:hover {
     background-color: #45a049;
 }
-
-
-

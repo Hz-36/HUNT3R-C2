@@ -208,91 +208,182 @@
             <!-- Payload Builder -->
 	    <h6>Payload Builder</h6>
 	    <div class="symbol-gallery">
-            <div class="symbol">
-                <img src="/pic/exe.png" alt="Symbol 1" width="50" height="50" onclick="showSettings('Symbol 1 Settings')">
-                <p>EXE</p>
+            	<div class="symbol">
+                    <img src="/pic/exe.png" alt="EXE" width="50" height="50" onclick="showSettings('EXE')">
+                    <p>EXE</p>
+                </div>
+                <div class="symbol">
+                     <img src="/pic/dll.png" alt="DLL" width="50" height="50" onclick="showSettings('DLL')">
+                     <p>DLL</p>
+            	</div>
+	    	<div class="symbol">
+                    <img src="/pic/bin.png" alt="BIN" width="50" height="50" onclick="showSettings('BIN')">
+                    <p>BIN</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/sys.png" alt="SYS" width="50" height="50" onclick="showSettings('SYS')">
+                    <p>SYS</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/msi.png" alt="MSI" width="50" height="50" onclick="showSettings('MSI')">
+                    <p>MSI</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/msp.png" alt="MSP" width="50" height="50" onclick="showSettings('MSP')">
+                    <p>MSP</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/pcx.png" alt="PCX" width="50" height="50" onclick="showSettings('PCX')">
+                    <p>PCX</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/doc.png" alt="DOC" width="50" height="50" onclick="showSettings('DOC')">
+                    <p>DOC</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/docx.png" alt="DOCX" width="50" height="50" onclick="showSettings('DOCX')">
+                    <p>DOCX</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/powerpoint.png" alt="POWERPOINT" width="50" height="50" onclick="showSettings('PPX')">
+                    <p>PPX</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/excel.png" alt="EXCEL" width="50" height="50" onclick="showSettings('EXCEL')">
+                    <p>EXCEL</p>
+            	</div>
+	    	<div class="symbol">
+                    <img src="/pic/rar.png" alt="RAR" width="50" height="50" onclick="showSettings('RAR')">
+                    <p>RAR</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/zip.png" alt="ZIP" width="50" height="50" onclick="showSettings('ZIP')">
+                    <p>ZIP</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/7z.png" alt="7Z" width="50" height="50" onclick="showSettings('7Z')">
+                    <p>7Z</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/pdf.png" alt="PDF" width="50" height="50" onclick="showSettings('PDF')">
+                    <p>PDF</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/webp.png" alt="WEBP" width="50" height="50" onclick="showSettings('WEBP')">
+                    <p>WEBP</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/ae.png" alt="AE" width="50" height="50" onclick="showSettings('AE')">
+                    <p>AE</p>
+            	</div>
+            	<div class="symbol">
+                    <img src="/pic/psd.png" alt="PSD" width="50" height="50" onclick="showSettings('PSD')">
+                    <p>PSD</p>
+            	</div>
             </div>
-            <div class="symbol">
-                <img src="/pic/dll.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>DLL</p>
+            <div id="exeSettings" class="settings-panel">
+    		<div class="left-section">
+        	    <ul class="points-list">
+            		<li><input type="checkbox" id="opt1-point1"><label for="opt1-point1">Shell</label></li>
+            		<li><input type="checkbox" id="opt1-point2"><label for="opt1-point2">Stager</label></li>
+            		<li><input type="checkbox" id="opt1-point3"><label for="opt1-point3">Live Modules</label></li>
+            		<li><input type="checkbox" id="opt1-point4"><label for="opt1-point4">File Explorer</label></li>
+        	    </ul>
+    		</div>
+    		<div class="middle-section">
+        	    <ul class="points-list">
+            		<li><input type="radio" id="middle-point1" name="middle-points"><label for="middle-point1">Option 1</label></li>
+            		<li><input type="radio" id="middle-point2" name="middle-points"><label for="middle-point2">Option 2</label></li>
+            		<li><input type="radio" id="middle-point3" name="middle-points"><label for="middle-point3">Option 3</label></li>
+        	    </ul>
+    		</div>
+    		<div class="right-section">
+        	    <label for="pngUpload">Upload PNG File:</label>
+        	    <input type="file" id="pngUpload" name="pngUpload">
+
+        	    <label for="fileSize">File Size (MB):</label>
+        	    <div class="file-size-input">
+            		<input type="number" id="fileSize" name="fileSize" min="0" max="20480" step="1">
+            		<button class="increase-button" type="button">&#9650;</button>
+            		<button class="decrease-button" type="button">&#9660;</button>
+         	    </div>
+
+        	    <label for="exeName">EXE Name:</label>
+        	    <input type="text" id="exeName" name="exeName">
+
+        	    <button class="compile-button">Compile EXE</button>
+    		</div>
+    		<div id="symbolSettings"></div>
+	    </div>
+            <div id="dllSettings" class="settings-panel">
+            	<h6>DLL Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-	    <div class="symbol">
-                <img src="/pic/bin.png" alt="Symbol 3" width="50" height="50" onclick="showSettings('Symbol 1 Settings')">
-                <p>BIN</p>
+            <div id="binSettings" class="settings-panel">
+            	<h6>BIN Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/sys.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>SYS</p>
+            <div id="sysSettings" class="settings-panel">
+            	<h6>SYS Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/msi.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>MSI</p>
+            <div id="msiSettings" class="settings-panel">
+            	<h6>MSI Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/msp.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>MSP</p>
+            <div id="mspSettings" class="settings-panel">
+            	<h6>MSP Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/pcx.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>PCX</p>
+            <div id="pcxSettings" class="settings-panel">
+            	<h6>PCX Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/doc.png" alt="Symbol 4" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>DOC</p>
+            <div id="docSettings" class="settings-panel">
+            	<h6>DOC Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/docx.png" alt="Symbol 1" width="50" height="50" onclick="showSettings('Symbol 1 Settings')">
-                <p>DOCX</p>
+            <div id="docxSettings" class="settings-panel">
+            	<h6>DOCX Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/powerpoint.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>PPX</p>
+            <div id="ppxSettings" class="settings-panel">
+            	<h6>POWERPOINT Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/excel.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>EXCEL</p>
+            <div id="excelSettings" class="settings-panel">
+            	<h6>EXCEL Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-	    <div class="symbol">
-                <img src="/pic/rar.png" alt="Symbol 3" width="50" height="50" onclick="showSettings('Symbol 1 Settings')">
-                <p>RAR</p>
+            <div id="rarSettings" class="settings-panel">
+            	<h6>RAR Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/zip.png" alt="Symbol 4" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>ZIP</p>
+            <div id="zipSettings" class="settings-panel">
+            	<h6>ZIP Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/7z.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>7Z</p>
+            <div id="7zSettings" class="settings-panel">
+            	<h6>7Z Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/pdf.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>PDF</p>
+            <div id="pdfSettings" class="settings-panel">
+            	<h6>PDF Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/webp.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>WEBP</p>
+            <div id="webpSettings" class="settings-panel">
+            	<h6>WEBP Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/ae.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>AE</p>
+            <div id="aeSettings" class="settings-panel">
+            	<h6>AE Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
-            <div class="symbol">
-                <img src="/pic/psd.png" alt="Symbol 2" width="50" height="50" onclick="showSettings('Symbol 2 Settings')">
-                <p>PSD</p>
+            <div id="psdSettings" class="settings-panel">
+            	<h6>PSD Builder</h6>
+            	<div id="symbolSettings"></div>
             </div>
         </div>
-        <!-- Settings for the selected symbol -->
-        <div id="settingsPanel" class="settings-panel">
-            <h6>Settings</h6>
-            <div id="symbolSettings"></div>
-        </div>
-        </div>
-    </div>
-    <div class="bottom-bar">
-        <input type="text" placeholder="Eingabe">
-        <button>Button 1</button>
-        <button>Button 2</button>
-        <button>Button 3</button>
     </div>
 </div>
 

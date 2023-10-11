@@ -282,39 +282,36 @@
             	</div>
             </div>
             <div id="exeSettings" class="settings-panel">
-    		<div class="left-section">
-        	    <ul class="points-list">
-            		<li><input type="checkbox" id="opt1-point1"><label for="opt1-point1">Shell</label></li>
-            		<li><input type="checkbox" id="opt1-point2"><label for="opt1-point2">Stager</label></li>
-            		<li><input type="checkbox" id="opt1-point3"><label for="opt1-point3">Live Modules</label></li>
-            		<li><input type="checkbox" id="opt1-point4"><label for="opt1-point4">File Explorer</label></li>
-        	    </ul>
-    		</div>
-    		<div class="middle-section">
-        	    <ul class="points-list">
-            		<li><input type="radio" id="middle-point1" name="middle-points"><label for="middle-point1">Option 1</label></li>
-            		<li><input type="radio" id="middle-point2" name="middle-points"><label for="middle-point2">Option 2</label></li>
-            		<li><input type="radio" id="middle-point3" name="middle-points"><label for="middle-point3">Option 3</label></li>
-        	    </ul>
-    		</div>
-    		<div class="right-section">
-        	    <label for="pngUpload">Upload PNG File:</label>
-        	    <input type="file" id="pngUpload" name="pngUpload">
+    <div class="left-section">
+        <ul class="points-list">
+            <li><input type="checkbox" id="opt1-point1"><label for="opt1-point1" class="checkbox-label">Shell</label></li>
+            <li><input type="checkbox" id="opt1-point2"><label for="opt1-point2" class="checkbox-label">Stager</label></li>
+            <li><input type="checkbox" id="opt1-point3"><label for="opt1-point3" class="checkbox-label">Live Modules</label></li>
+        </ul>
+    </div>
+    <div class="middle-section">
+        <ul class="points-list">
+            <li><input type="radio" id="middle-point1" name="middle-points"><label for="middle-point1" class="radio-label">Stageless</label></li>
+            <li><input type="radio" id="middle-point2" name="middle-points"><label for="middle-point2" class="radio-label">Staged</label></li>
+            <li><input type="radio" id="middle-point3" name="middle-points"><label for="middle-point3" class="radio-label">Remote Execution</label></li>
+        </ul>
+    </div>
+    <div class="right-section">
+        <label for="fileSize">File Size (MB):</label>
+        <div class="file-size-input">
+            <input type="number" id="fileSize" name="fileSize" min="0" max="20480" step="1" class="input-field">
+            <button class="increase-button" type="button">&#9650;</button>
+            <button class="decrease-button" type="button">&#9660;</button>
+        </div><br>
+        <label for="exeName">EXE Name:</label>
+        <input type="text" id="exeName" name="exeName" class="input-field"><br>
+        <label for="pngUpload">Upload ICON:</label>
+        <input type="file" id="pngUpload" name="pngUpload" class="input-field">
+        <button class="compile-button">Compile EXE</button>
+    </div>
+    <div id="symbolSettings"></div>
+</div>
 
-        	    <label for="fileSize">File Size (MB):</label>
-        	    <div class="file-size-input">
-            		<input type="number" id="fileSize" name="fileSize" min="0" max="20480" step="1">
-            		<button class="increase-button" type="button">&#9650;</button>
-            		<button class="decrease-button" type="button">&#9660;</button>
-         	    </div>
-
-        	    <label for="exeName">EXE Name:</label>
-        	    <input type="text" id="exeName" name="exeName">
-
-        	    <button class="compile-button">Compile EXE</button>
-    		</div>
-    		<div id="symbolSettings"></div>
-	    </div>
             <div id="dllSettings" class="settings-panel">
             	<h6>DLL Builder</h6>
             	<div id="symbolSettings"></div>

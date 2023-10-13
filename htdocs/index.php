@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/log_styles.css">
     <link rel="stylesheet" href="/css/shell_styles.css">
     <link rel="stylesheet" href="/css/builder_styles.css"> 
+    <link rel="stylesheet" href="/css/xpass_styles.css">
     <title>HUNT3R</title>
 </head>
 
@@ -198,5 +199,6 @@
     <script type="text/javascript" src="/js/right_pane.js" defer></script>
     <script type="text/javascript" src="/js/kill_switch.js" defer></script>
     <script type="text/javascript" src="/js/builder_popup.js" defer></script>
+    <script type="text/javascript" src="/js/xpass.js" defer></script>
 </body>
 </html>

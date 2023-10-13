@@ -50,12 +50,14 @@ function showSettings(symbol) {
     const allPanels = document.querySelectorAll('.settings-panel');
     allPanels.forEach(panel => {
         panel.style.display = 'none';
+        panel.classList.remove('display-flex');
     });
 
     // Show the settings panel for the selected symbol
     const selectedPanel = document.getElementById(panelId);
     console.log('Selected Panel:', selectedPanel);
     if (selectedPanel) {
-        selectedPanel.style.display = 'block';
+        selectedPanel.style.display = 'flex';
+        selectedPanel.classList.add('display-flex');
     }
 }

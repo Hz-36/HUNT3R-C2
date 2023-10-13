@@ -350,3 +350,7 @@ button:hover {
 .compile-button:hover, .submit-button:hover {
     background-color: #45a049;
 }
+
+.xbuild-pane {
+    display: flex;
+}

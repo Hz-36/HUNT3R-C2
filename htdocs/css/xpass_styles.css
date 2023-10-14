@@ -1,7 +1,6 @@
 .xbuild-client-table table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
     font-size: 14px;
 }
 
@@ -29,4 +28,20 @@
     padding: 10px;
     box-sizing: border-box;
     font-size: 10px;
+}
+
+.xbuild-right-pane {
+    border: 1px solid #ddd;
+    height: calc(100vh - 90px);
+    width: auto;
+}
+
+.xbuild-client-table, .xbuild-right-pane {
+    margin-top: -10px;
+    flex: 1;
+    height: calc(100vh - 90px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
 }

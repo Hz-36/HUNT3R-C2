@@ -16,7 +16,7 @@ $sid = $_GET['sid'];
 
 <body>
     <div class="right-pane">
-    	<h2>XSHELL</h2>
+    	<h3>XSHELL</h3>
     	<div class="shellbody">
             <div class="shell" id="shell-output">
             	<!-- SHELL OUTPUT IS LOADING HERE -->

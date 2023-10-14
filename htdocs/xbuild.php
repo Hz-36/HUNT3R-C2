@@ -1,6 +1,6 @@
 <div class="right-pane">
     <div class="headerbuilder">
-        <h2>XBUILDER</h2>
+        <h3>XBUILDER</h3><br>
         <div class="tabsbuilder">
             <button class="tabbuilder">Builder</button>
             <button class="tabbuilder">Include Code</button>

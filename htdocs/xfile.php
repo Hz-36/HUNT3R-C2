@@ -8,7 +8,7 @@
 </head>
 <body>
         <div class="right-pane">
-            <h2>XFILE</h2>
+            <h3>XFILE</h3>
             <div id="explorer">
         <h2>File Explorer</h2>
         <ul id="file-list"></ul>

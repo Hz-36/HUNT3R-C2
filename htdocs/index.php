@@ -104,10 +104,13 @@
     		    </div>
                 </div>
                 <div class="settings-button">
-                    <button><img src="settings.png" alt="Settings" width="40" height="40"></button>
+                    <button><img src="/pic/messages.png" alt="Settings" width="40" height="40"></button>
                 </div>
 		<div class="settings-button">
-                    <button><img src="logout.png" alt="Logout" width="35" height="35"></button>
+                    <button><img src="/pic/logout.png" alt="Logout" width="30" height="30"></button>
+                </div>
+                <div class="settings-button">
+                    <button><img src="/pic/settings.png" alt="Settings" width="40" height="40"></button>
                 </div>
             </div>
             <div class="vertical-header">

@@ -1,5 +1,5 @@
 <div class="left-pane">
-    <h2>XLOGS</h2>
+    <h3>XLOGS</h3>
     <div class="xlogs">
         <div class="logx-container" id="logsContainer">
             <!-- Logs Output -->

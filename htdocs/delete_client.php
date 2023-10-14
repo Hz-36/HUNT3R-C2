@@ -1,24 +1,19 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=clients', 'hunt3r', 'hunt3r');
+    $pdo = new PDO('mysql:host=localhost;dbname=clients', 'hunt3r', 'hunt3r');
 
-if (isset($_POST['xid'])) {
-    $xid = $_POST['xid'];
+    if (isset($_POST['xid'])) {
+        $xid = $_POST['xid'];
+        $stmt = $pdo->prepare('DELETE FROM xclients WHERE xid = :xid');
+        $stmt->bindParam(':xid', $xid);
     
-    // Lösche den Client mit der gegebenen xid
-    $stmt = $pdo->prepare('DELETE FROM xclients WHERE xid = :xid');
-    $stmt->bindParam(':xid', $xid);
-    
-    if ($stmt->execute()) {
-        // Erfolgreich gelöscht
-        echo 'Client successfully deleted.';
+        if ($stmt->execute()) {
+            echo 'Client Successfully Deleted.';
+        } else {
+            echo 'ERROR x101 Deleting Client.';
+        }
     } else {
-        // Fehler beim Löschen
-        echo 'Error deleting client.';
+        echo 'ERROR x100 No XID Provided.';
     }
-} else {
-    // xid wurde nicht übergeben
-    echo 'xid not provided.';
-}
-echo '<script>showPopup();</script>';
+    echo '<script>showPopup();</script>';
 ?>
 

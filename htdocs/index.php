@@ -107,7 +107,7 @@
                     <button><img src="/pic/messages.png" alt="Settings" width="40" height="40"></button>
                 </div>
 		<div class="settings-button">
-                    <button><img src="/pic/logout.png" alt="Logout" width="30" height="30"></button>
+                    <button><img src="/pic/logout.png" alt="Logout" width="35" height="35"></button>
                 </div>
                 <div class="settings-button">
                     <button><img src="/pic/settings.png" alt="Settings" width="40" height="40"></button>
@@ -203,5 +203,6 @@
     <script type="text/javascript" src="/js/kill_switch.js" defer></script>
     <script type="text/javascript" src="/js/builder_popup.js" defer></script>
     <script type="text/javascript" src="/js/xpass.js" defer></script>
+    <script type="text/javascript" src="/js/xfile.js" defer></script>
 </body>
 </html>

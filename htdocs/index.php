@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/css/shell_styles.css">
     <link rel="stylesheet" href="/css/builder_styles.css"> 
     <link rel="stylesheet" href="/css/xpass_styles.css">
+    <link rel="stylesheet" href="/css/xtime_styles.css">
+    <link rel="stylesheet" href="/css/xlisten_styles.css">
     <title>HUNT3R</title>
 </head>
 
@@ -118,12 +120,13 @@
     		    <ul>
         	    <li><div class="menu-item-box"><span class="menu-item-text">CONTROL</span></div></li>
        		    <li><div class="menu-item-box"><span class="menu-item-text">XBUILD</span></div></li>
-        	    <li><div class="menu-item-box"><span class="menu-item-text">XSHELL</span></div></li>
        		    <li><div class="menu-item-box"><span class="menu-item-text">XFILE</span></div></li>
        		    <li><div class="menu-item-box"><span class="menu-item-text">XPASS</span></div></li>
+        	    <li><div class="menu-item-box"><span class="menu-item-text">XSHELL</span></div></li>
         	    <li><div class="menu-item-box"><span class="menu-item-text">XLOGS</span></div></li>
-       		    <li><div class="menu-item-box"><span class="menu-item-text">XINTERVAL</span></div></li>
-       		    <li><div class="menu-item-box"><span class="menu-item-text">XCHAT</span></div></li>
+       		    <li><div class="menu-item-box"><span class="menu-item-text">XTIME</span></div></li>
+       		    <li><div class="menu-item-box"><span class="menu-item-text">XLISTEN</span></div></li>
+       		    <li><div class="menu-item-box"><span class="menu-item-text">XSTATS</span></div></li>
     		    </ul>
 	        </div>
                 <div class="tabs">
@@ -204,5 +207,6 @@
     <script type="text/javascript" src="/js/builder_popup.js" defer></script>
     <script type="text/javascript" src="/js/xpass.js" defer></script>
     <script type="text/javascript" src="/js/xfile.js" defer></script>
+    <script type="text/javascript" src="/js/xlisten.js" defer></script>
 </body>
 </html>

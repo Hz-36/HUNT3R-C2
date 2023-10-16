@@ -21,7 +21,7 @@
     	        echo '<div class="client-info">';
     
     	        $status = $clientInfo['status'];
-    	        $statusColor = ($status === 'online') ? 'green' : 'red';
+    	        $statusColor = ($status === 'online') ? '#00FF00' : 'red';
 
     	        echo $xid . ' | ' . $clientInfo['nickname'] . ' | <b><span style="color: ' . $statusColor . ';">' . $status . '</b></span>';
     

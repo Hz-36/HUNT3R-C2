@@ -1,0 +1,40 @@
+.xtime-pane {
+    font-size: 12px;
+    flex: 1;
+    height: calc(100vh - 80px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.xtime-container {
+    width: 100%;
+    height: 100%;
+}
+
+.xtime-upper {
+    width: 100%;
+    height: 50%;
+}
+
+.xtime-upper input {
+    margin: 5px;
+}
+
+.xtime-lower {
+    width: 100%;
+    height: 50%;
+}
+
+.xtime-left-container {
+    float: left;
+    width: 50%;
+}
+
+.xtime-right-container {
+    float: right;
+    width: 50%;
+}
+
+

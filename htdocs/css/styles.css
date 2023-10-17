@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/pic/bg2.png");
+    background-image: url("/pic/bg12.png");
 }
 /* 2=Blue, 5=Blue, 7=Blue, 8=Purple/Blue 10=Blue, 11=Blue, */
 .header {
@@ -136,7 +136,7 @@ body {
 .tabs {
     text-align: left;
     margin-bottom: 10px;
-    padding-right: 42px;
+    padding-right: 52px;
     padding-left: 5px;
     padding-top: 10px;
     border-width: 2px;
@@ -156,7 +156,6 @@ body {
 
 .slider-container {
     display: flex;
-
     font-size: 13px;
 }
 
@@ -169,6 +168,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    margin-left: 3px;
 }
 
 .profile-button {
@@ -176,12 +176,17 @@ body {
     margin: 0 3px;
     cursor: pointer;
     border: none;
-    background-color: #f0f0f0;
+    color: #FFFFFF;
+    background-color: rgba(235, 235, 255, 0.12);
     font-size: 13px;
 }
 
+.profile-button:hover {
+    background-color: rgba(38, 138, 218, 0.8);
+}
+
 .profile-button.active {
-    background-color: #00f0ff;
+    background-color: rgba(81, 93, 240, 0.6);
 }
 
 .slider-wrapper {
@@ -221,6 +226,10 @@ button[type="submit"] {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+}
+
+.kill-switch:hover {
+    background-color: darkred;
 }
 
 .kill-switch::before {
@@ -289,7 +298,7 @@ button[type="submit"] {
 }
 
 .left-pane th {
-    background-color: #0e0c4a6e;
+    background-color: rgba(20, 42, 162, 0.6);
 }
 
 .left-pane tr:hover {
@@ -368,7 +377,7 @@ button[type="submit"] {
 }
 
 .client-actions button {
-    background-color: #007bff;
+    background-color: rgba(255, 255, 255, 0.12);
     color: white;
     border: none;
     cursor: pointer;
@@ -386,7 +395,7 @@ button[type="submit"] {
 }
 
 .client-actions button:hover {
-    background-color: #0056b3; 
+    background-color: rgba(38, 138, 218, 0.8); 
 }
 
 .interval-container {
@@ -397,7 +406,7 @@ button[type="submit"] {
 }
 
 #intervalSlider {
-    width: 200px; /* Breite des Sliders */
+    width: 200px;
 }
 
 #intervalValue {
@@ -407,6 +416,8 @@ button[type="submit"] {
 #intervalValue,
 #submitInterval {	
     margin: 5px;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 1);
 }
 
 .logs-container {

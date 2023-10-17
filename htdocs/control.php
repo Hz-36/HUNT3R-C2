@@ -1,5 +1,6 @@
 <div class="left-pane">
     <h3>Clients</h3>
+    <div class="leftmain-pane">
     <table>
 	<thead>
             <tr>
@@ -35,9 +36,11 @@
             ?>
         </tbody>
     </table>
+    </div>
 </div>
 <div class="right-pane" id="right-pane">
     <h3>HUNT3R C2</h3>
+    <div class="rightmain-pane">
     <div class="info-container"><br><br>
     <p>Current Version: ALPHA 1.02</p><br>
     <div class="update-info">
@@ -65,5 +68,5 @@
     <p>For More Information Or Troubleshooting, Please Have a Look at Our <a href="documentation_link">Documentation</a>.</p>
     <p>Visit The Official <a href="https://google.com/">R4IN Security Website</a>.</p>
 </div>
-
+</div>
 </div>

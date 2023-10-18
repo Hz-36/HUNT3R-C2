@@ -42,7 +42,7 @@
     <h3>HUNT3R C2</h3>
     <div class="rightmain-pane">
     <div class="info-container"><br><br>
-    <p>Current Version: ALPHA 1.02</p><br>
+    <p><b>Current Version: <font color="#00FF00">ALPHA 1.02</font></b></p><br><br><br>
     <div class="update-info">
         <h3>Last Updates/Fixes</h3>
         <table>
@@ -63,10 +63,10 @@
             <tr><td>XTEAM</td></tr>
             <tr><td>Light- darkmode (recolor settings)</td></tr>
         </table>
-    </div><br><br><br><br><br><br><br><br><br>
+    </div><br><br><br><br><br>
 
-    <p>For More Information Or Troubleshooting, Please Have a Look at Our <a href="documentation_link">Documentation</a>.</p>
-    <p>Visit The Official <a href="https://google.com/">R4IN Security Website</a>.</p>
+    <p>For More Information Or Troubleshooting, Please Have a Look at Our <a href="documentation_link"><font color="#00FF00"><b><u>Documentation</u></b></font></a>.</p>
+    <p>Visit The Official <a href="https://google.com/"><font color="#00FF00"><b><u>R4IN Security Website</u></b></font></a>.</p>
 </div>
 </div>
 </div>

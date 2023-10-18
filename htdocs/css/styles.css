@@ -6,9 +6,10 @@ body, h1, h2, h3, h4, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/pic/bg12.png");
+    background-image: url("/pic/bg11.png");
 }
 /* 2=Blue, 5=Blue, 7=Blue, 8=Purple/Blue 10=Blue, 11=Blue, */
+
 .header {
 }
 
@@ -272,7 +273,7 @@ button[type="submit"] {
     flex: 1;
     height: calc(100vh - 80px);
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.34);
+    background-color: rgba(255, 255, 255, 0.14);
     box-sizing: border-box;
 }
 
@@ -297,12 +298,60 @@ button[type="submit"] {
     text-align: left;
 }
 
+.left-pane td {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* color: rgba(20, 42, 162, 0.8); */
+}
+
 .left-pane th {
-    background-color: rgba(20, 42, 162, 0.6);
+    background-color: rgba(36, 36, 105, 0.6);
 }
 
 .left-pane tr:hover {
     background-color: rgba(0, 0, 39, 0.1);
+}
+
+/*  height: calc(100vh - 80px);  */
+
+.buildermain-pane {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    width: 98.75%;
+    height: 95%;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.rightdetails-pane {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    width: 98.5%;
+    height: 86.5%;
+    border: 1px solid #ccc;
+}
+
+.leftmain-pane {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    width: 98.5%;
+    height: 95%;
+    border: 1px solid #ccc;
+}
+
+.rightmain-pane {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    width: 98.5%;
+    height: 95%;
+    border: 1px solid #ccc;
+}
+
+.clientdetails-info {
+    margin-top: -26px;
+    float: right;
+    font-size: 15px;
 }
 
 .delete-button {
@@ -528,8 +577,13 @@ button[type="submit"] {
 }
 
 .info-container h3 {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.info-container h3 {
     margin-top: 10px;
-    font-size: 12px;
+    padding-bottom: 6px;
+    font-size: 13px;
 }
 
 .info-container p {

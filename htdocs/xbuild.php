@@ -7,6 +7,7 @@
             <button class="tabbuilder">Advanced Builder</button>
         </div>
     </div>
+    <div class="buildermain-pane">
     <div class="row">
     	<div class="col-50">
             <!-- Anti Sandbox Config -->
@@ -381,6 +382,7 @@
             	<div id="symbolSettings"></div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 

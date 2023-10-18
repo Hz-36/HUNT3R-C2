@@ -164,7 +164,7 @@
                     	</form>
                     </div>
                     <div class="version">
-		    	<p>Version 1.0</p><br>
+		    	<p>Alpha 1.02</p><br>
 			<button class="kill-switch" id="killSwitchButton">
     			    Kill Switch
     			    <div class="progress-bar"></div>

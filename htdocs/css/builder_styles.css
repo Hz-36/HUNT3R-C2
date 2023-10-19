@@ -190,6 +190,7 @@ button:hover {
     cursor: pointer;
     font-size: 12px;
     color: #FFF;
+    margin-right: -1px;
 }
 
 .tabbuilder:first-child {

@@ -1,4 +1,4 @@
-<div class="right-pane">
+<div class="left-pane">
     <div class="headerbuilder">
         <h3>XBUILDER</h3><br>
         <div class="tabsbuilder">

@@ -160,11 +160,11 @@ button:hover {
 }
 
 .payload-settings-wrapper {
-    display: flex; /* Elemente nebeneinander ausrichten */
+    display: flex;
 }
 
 .payload-settings-columnx {
-    width: 50%; /* Breite anpassen, damit sie nebeneinander passen */
+    width: 50%;
     border-right: 1px solid #ccc;
 }
 
@@ -184,7 +184,7 @@ button:hover {
 
 .tabbuilder {
     padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.14);
     border: 1px solid #ccc;
     border-bottom: none;
     cursor: pointer;
@@ -306,23 +306,23 @@ button:hover {
 
 .file-size-input input {
     flex: 1;
-    padding: 6px; /* Adjust as needed */
-    font-size: 10px; /* Adjust as needed */
+    padding: 6px;
+    font-size: 10px;
 }
 
 .file-size-input button {
-    padding: 6px; /* Adjust as needed */
-    font-size: 10px; /* Adjust as needed */
+    padding: 6px;
+    font-size: 10px;
 }
 
 .input-field {
     width: 54%;
-    padding: 6px; /* Adjust as needed */
-    font-size: 10px; /* Adjust as needed */
+    padding: 6px;
+    font-size: 10px;
 }
 
 .checkbox-label, .radio-label {
-    font-size: 10px; /* Adjust as needed */
+    font-size: 10px;
     vertical-align: middle;
 }
 

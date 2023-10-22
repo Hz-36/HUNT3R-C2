@@ -29,6 +29,9 @@
                 </tbody>
             </table>
         </div>
+    </div>
+</div>
+<div class="right-pane">
         <div class="xbuild-right-pane" id="xbuild-right-pane">
     	    <h3>HUNT3R C2</h3>
     	    <div class="info-container"><br><br>
@@ -59,5 +62,4 @@
     		<p>Visit The Official <a href="https://google.com/">R4IN Security Website</a>.</p>
 	    </div>
 	</div>
-    </div>
 </div>

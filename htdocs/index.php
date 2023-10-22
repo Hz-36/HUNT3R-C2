@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/xpass_styles.css">
     <link rel="stylesheet" href="/css/xtime_styles.css">
     <link rel="stylesheet" href="/css/xlisten_styles.css">
+    <link rel="stylesheet" href="/css/xstats_styles.css">
     <title>HUNT3R</title>
 </head>
 
@@ -157,9 +158,9 @@
 	        <div class="slider-container">
                     <form id="profileForm">
             	            <div class="profile-buttons">
-                                <button type="button" class="profile-button active" data-profile="Profil 1">WORK</button>
-                                <button type="button" class="profile-button" data-profile="Profil 2">CONTROL</button>
-                                <button type="button" class="profile-button" data-profile="Profil 3">STEALTH</button>
+                                <button type="button" class="profile-button active" data-profile="Profil 1"><img src="/pic/button_control.png" alt="Previous" width="48" height="16"></button>
+                                <button type="button" class="profile-button" data-profile="Profil 2"><img src="/pic/button_work.png" alt="Previous" width="48" height="16"></button>
+                                <button type="button" class="profile-button" data-profile="Profil 3"><img src="/pic/button_stealth.png" alt="Previous" width="48" height="16"></button>
                             </div>
                     	</form>
                     </div>
@@ -205,5 +206,8 @@
     <script type="text/javascript" src="/js/xpass.js" defer></script>
     <script type="text/javascript" src="/js/xfile.js" defer></script>
     <script type="text/javascript" src="/js/xlisten.js" defer></script>
+    <script type="text/javascript" src="/js/xstats.js" defer></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" defer></script>
+
 </body>
 </html>

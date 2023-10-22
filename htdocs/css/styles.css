@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url("/pic/bg11.png");
 }
-/* 2=Blue, 5=Blue, 7=Blue, 8=Purple/Blue 10=Blue, 11=Blue, */
+/* 2=Blue, 5=Blue, 7=Blue, 8=Purple/Blue 10=Blue, 11=Blue, 20=Turkis, 21=Purple, 22=Purple, 24=Purple, 25=lightpurple, 29=lightgrey, 34=red, 35=highred */
 
 .header {
 }
@@ -287,10 +287,11 @@ xbuild-pane {
 }
 
 .left-pane {
-    margin-right: 3px;
+    margin-right: 8px;
 }
 
 .right-pane {
+    margin-right: 4px;
 }
 
 .left-pane table {
@@ -302,13 +303,13 @@ xbuild-pane {
 }
 
 .left-pane th, .left-pane td {
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 4px;
     text-align: left;
 }
 
 .left-pane td {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     /* color: rgba(20, 42, 162, 0.8); */
 }
 
@@ -320,10 +321,8 @@ xbuild-pane {
     background-color: rgba(0, 0, 39, 0.1);
 }
 
-/*  height: calc(100vh - 80px);  */
-
 .buildermain-pane {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     padding: 5px;
     width: 99.2%;
     height: 95%;
@@ -334,27 +333,27 @@ xbuild-pane {
 }
 
 .rightdetails-pane {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.0);
     padding: 5px;
     width: 98.5%;
     height: 86.5%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .leftmain-pane {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.0);
     padding: 5px;
     width: 98.5%;
     height: 95%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .rightmain-pane {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.0);
     padding: 5px;
     width: 98.5%;
     height: 95%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .clientdetails-info {
@@ -415,7 +414,7 @@ xbuild-pane {
 .left-table td,
 .right-table td {
     padding: 2px; 
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .right-table th {
@@ -611,7 +610,7 @@ xbuild-pane {
 }
 
 .info-container th, .info-container td {
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 6px;
     text-align: left;
 }

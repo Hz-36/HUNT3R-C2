@@ -26,18 +26,16 @@
 }
 
 .controls-container button img {
-    width: 45px; /* Ändere die Breite nach Bedarf */
-    height: 15px; /* Ändere die Höhe nach Bedarf */
+    width: 45px;
+    height: 15px;
 }
 
-/* Suchleiste */
 .search-bar {
     max-height: 39px;
     display: flex;
 }
 
 #searchInput {
-
   background-color: transparent;
   border: none;
   color: white;
@@ -48,8 +46,11 @@
 }
 
 #searchButton {
-    padding: 5px;
-    margin-left: 10px;
+    background-color: #000;
     border: none;
     cursor: pointer;
+}
+
+.xlogs button {
+    background-color: #000;
 }

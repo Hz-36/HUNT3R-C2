@@ -3,7 +3,6 @@
     height: 100%;
 }
 
-
 .xlisten-left input,
 .xlisten-left select,
 .xlisten-left button {
@@ -92,7 +91,7 @@
 .xlisten-left {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     transition: flex 0.3s ease-in-out;
     width: 50%;
 }
@@ -104,6 +103,6 @@
 .xlisten-right {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     width: 50%;
 }

@@ -7,11 +7,11 @@
         <div class="controls-container">
             <div class="search-bar">
         	<input type="text" id="searchInput" placeholder="Search...">
-        	<button id="searchButton"><img src="/pic/HUNT3R_SEARCH_BLUE.png" alt="Search" width="30" height="30"></button>
+        	<button id="searchButton"><img src="/pic/button_search.png" alt="Search" width="30" height="30"></button>
     	    </div>
     	    <div class="navigation-buttons">
-        	<button id="prevButton"><img src="/pic/HUNT3R_PREV_BLUE.png" alt="Previous" width="30" height="30"></button>
-        	<button id="nextButton"><img src="/pic/HUNT3R_NEXT_BLUE.png" alt="Next" width="30" height="30"></button>
+        	<button id="prevButton"><img src="/pic/button_prev.png" alt="Previous" width="30" height="30"></button>
+        	<button id="nextButton"><img src="/pic/button_next.png" alt="Next" width="30" height="30"></button>
     	    </div>
 	</div>
     </div>

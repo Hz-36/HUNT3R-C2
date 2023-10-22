@@ -1,4 +1,3 @@
-
 function loadContent(url) {
     fetch(url)
         .then(response => response.text())
@@ -6,8 +5,9 @@ function loadContent(url) {
             const mainContent = document.getElementById('main-content');
             mainContent.innerHTML = data;
 
-            // Execute logs.js if the loaded content is xlogs.php
-            if (url.includes('xlogs.php')) {
+            if (url.includes('xstats.php')) {
+                generateGraph();
+            } else if (url.includes('xlogs.php')) {
                 const script = document.createElement('script');
                 script.src = '/js/logs.js';
                 script.defer = true;

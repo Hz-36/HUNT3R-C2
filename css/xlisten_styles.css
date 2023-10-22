@@ -1,0 +1,108 @@
+.xlisten-container {
+    display: flex;
+    height: 100%;
+}
+
+.xlisten-left input,
+.xlisten-left select,
+.xlisten-left button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.xlisten-left .progress-bar {
+    height: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.xlisten-left .progress {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+}
+
+.xlisten-left .status-text {
+    margin-top: 10px;
+}
+
+.xlisten-left input {
+    width: 12%;
+    margin-bottom: 10px;
+    height: 1%;
+    margin-top: 10px;
+}
+
+.xlisten-right input {
+    width: 12%;
+    margin-bottom: 10px;
+    height: 1%;
+    margin-top: 10px;
+}
+
+.xlisten-right .menu {
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.xlisten-right .menu a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.xlisten-right .menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.xlisten-right .code-display {
+    margin-top: 10px;
+    white-space: pre;
+    font-family: monospace;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.collapse-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.collapse-button::after {
+    content: '\2194';
+    font-size: 20px;
+}
+
+.collapse-button.collapsed::after {
+    content: '\2192';
+}
+
+.xlisten-right.collapsed {
+    display: none;
+}
+
+.xlisten-left {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: flex 0.3s ease-in-out;
+    width: 50%;
+}
+
+.xlisten-container.collapsed .xlisten-left {
+    flex: 0;
+}
+
+.xlisten-right {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 50%;
+}

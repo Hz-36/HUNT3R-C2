@@ -1,0 +1,71 @@
+.xtime-pane {
+    font-size: 12px;
+    margin-right: 5px;
+    flex: 1;
+    height: calc(100vh - 80px);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.14);
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+}
+
+.xtime-container {
+    width: 100%;
+    height: 100%;
+}
+
+.xtime-pane table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.xtime-pane th, .xtime-pane td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 4px;
+    text-align: left;
+}
+
+.xtime-table {
+    width: 100%;
+    min-width: fit-content;
+}
+
+.xtime-client-row {
+    min-width: fit-content;
+}
+
+xtimeinvalbutton {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.xtime-upper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xtime-upper input {
+    margin: 5px;
+    width: calc(33.33% - 10px);
+}
+
+.xtime-lower {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.xtime-left-container {
+    width: 50%;
+    overflow: auto;
+}
+
+.xtime-right-container {
+    width: 50%;
+}
